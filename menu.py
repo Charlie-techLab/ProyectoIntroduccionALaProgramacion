@@ -1,0 +1,15 @@
+def menu():
+    print("These are the command voices you can use: ")
+    print("1. Open YouTube")
+    print("2. Open browser")
+    print("3. Open ChatGPT")
+    print("4. Get the current date")
+    print("5. Get the current time")
+    print("6. Search in Wikipedia, you can say a specific topic")
+    print("7. Search in internet, you can say something specific")
+    print("8. Play a video from internet, you can look for a specific video")
+    print('9. Play Hangman. Use the command: "Hangman" to disambiguate from the former command')
+    print("10. Get a recording")
+    print('11. Listen an audiobook')
+    print("12. Bye")
+    
