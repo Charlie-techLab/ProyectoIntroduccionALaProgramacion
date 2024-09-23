@@ -5,11 +5,16 @@ pip install pywhatkit
 pip install pyjokes
 pip install PyPDF2
 """
+# JUST
+# A
+# RATHER
+# VERY
+# INTELLIGENT
+# SYSTEM
 
 import pyttsx3
 import speech_recognition as sr 
 import pywhatkit 
-import pyjokes 
 import webbrowser
 import datetime
 import wikipedia
@@ -171,7 +176,7 @@ def central_command():
 
         if 'open YouTube' in request:
             talk('Sure. I am opening YouTube')
-            webbrowser.open('https://www.youtube.com')
+            webbrowser.open('https://www.youtube.com/watch?v=5ZP12BNusO0')
         elif 'open browser' in request:
             talk('Sure. I am opening Bing')
             webbrowser.open('https://www.bing.com')
@@ -218,7 +223,7 @@ def central_command():
             hangman()
             continue
         elif 'audiobook' in request:
-            talk('Great. You are going to learn about object oriented programming.')
+            talk('Great. You are going to learn about Object Oriented Programming.')
             audiobook() and input('Press q if you want to stop listening: ')
             if 'q':
                 break

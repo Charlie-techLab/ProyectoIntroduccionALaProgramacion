@@ -6,7 +6,7 @@ def audiobook():
     pdfReader = PyPDF2.PdfReader(book)
     pages = len(pdfReader.pages) 
     speaker = pyttsx3.init()
-    for num in range(7, pages):
+    for num in range(1, pages):
         page = pdfReader.pages[7]
         text = page.extract_text()
         speaker.say(text)
